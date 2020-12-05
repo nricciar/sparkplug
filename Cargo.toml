@@ -9,4 +9,4 @@ edition = "2018"
 [dependencies]
 serde = "1"
 chrono = { version = "0.4.11", features = ["serde","wasmbind","js-sys"] }
-ham-rs = { git = "https://github.com/nricciar/ham-rs", branch = "pre-release" }
+ham-rs = { git = "https://github.com/nricciar/ham-rs" }
