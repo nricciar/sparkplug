@@ -1,0 +1,12 @@
+[package]
+name = "sparkplug"
+version = "0.1.0"
+authors = ["David Ricciardi <nricciar@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1"
+chrono = { version = "0.4.11", features = ["serde","wasmbind","js-sys"] }
+ham-rs = { git = "https://github.com/nricciar/ham-rs", branch = "pre-release" }
